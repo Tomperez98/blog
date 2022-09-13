@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Who I am?
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<p align="center">
+  <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/72174660?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" alt="The FastAPI Expert"/>
+  <p align="center">I'm Tomas Perez, nice to meet you! 👋</p>
+</p>
+---
