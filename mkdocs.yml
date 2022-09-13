@@ -1,6 +1,7 @@
 site_name: Tomas Perez
 theme:
   name: material
+
   palette:
     primary: blue grey
     accent: deep purple

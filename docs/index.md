@@ -11,7 +11,7 @@ I'm a Data Engineer/Python Developer from <b>Colombia</b>. 🇨🇴
 </p>
 
 <p align="center">
-I'm currently working for
+I'm currently working at
   <a href="https://www.linkedin.com/company/factoredai/mycompany/">
     <b>Factored</b>
   </a> as Data Engineer
