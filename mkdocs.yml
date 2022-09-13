@@ -7,6 +7,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  # features:
-  #   - navigation.tabs
-  #   - navigation.tabs.sticky
+nav:
+  - Home: index.md
+  - Experience: experience.md
+  - Tech Stack: tech_stack.md
+  - Certifications: certifications.md
+  - About: about.md
