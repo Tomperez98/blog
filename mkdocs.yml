@@ -34,7 +34,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tomas-perez-alvarez/
     - icon: fontawesome/brands/github
-      link: https://github.com/Tomperez98
+      link: https://github.com/Tomperez98/blog
 
 markdown_extensions:
   - pymdownx.emoji:
