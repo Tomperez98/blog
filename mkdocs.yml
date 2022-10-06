@@ -37,6 +37,14 @@ nav:
                       - "Infrastructure Protection": "notes_aws/well_architected_framework/pillars/security/best_practices/infrastructure_protection.md"
                       - "Data Protection": "notes_aws/well_architected_framework/pillars/security/best_practices/data_protection.md"
                       - "Incident Response": "notes_aws/well_architected_framework/pillars/security/best_practices/incident_response.md"
+              - "Reliability":
+                  - "Definition": "notes_aws/well_architected_framework/pillars/reliability/definition.md"
+                  - "Best Practices":
+                      - "Foundations": "notes_aws/well_architected_framework/pillars/reliability/best_practices/foundations.md"
+                      - "Workload Architecture": "notes_aws/well_architected_framework/pillars/reliability/best_practices/workload_architecture.md"
+                      - "Change Management": "notes_aws/well_architected_framework/pillars/reliability/best_practices/change_management.md"
+                      - "Failure Management": "notes_aws/well_architected_framework/pillars/reliability/best_practices/failure_management.md"
+
 extra:
   generator: false
   social:

@@ -5,7 +5,7 @@
     - Pillars
       - [X] Operational Excellence
       - [X] Security
-      - [ ] Reliability
+      - [X] Reliability
       - [ ] Performance Efficiency
       - [ ] Cost Optimization
       - [ ] Sustainability
