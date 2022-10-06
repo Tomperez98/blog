@@ -4,7 +4,7 @@
     - [x] Framework Definition
     - Pillars
       - [X] Operational Excellence
-      - [ ] Security
+      - [X] Security
       - [ ] Reliability
       - [ ] Performance Efficiency
       - [ ] Cost Optimization
