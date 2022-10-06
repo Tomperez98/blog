@@ -16,6 +16,17 @@ nav:
   - "Interests": "interests.md"
   - "Projects":
       - "Loan Management System": "projects/loan-management-system.md"
+  - "Notes AWS":
+      - "Well-Architected Framework":
+          - "Framework": "notes_aws/well_architected_framework/framework.md"
+          - "Pillars":
+              - "Operational Excellence":
+                  - "Definition": "notes_aws/well_architected_framework/pillars/operation_excellence/definition.md"
+                  - "Best Practices":
+                      - "Organization": "notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/organization.md"
+                      - "Prepare": "notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/prepare.md"
+                      - "Operate": "notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/operate.md"
+                      - "Evolve": "notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/evolve.md"
 
 extra:
   generator: false
@@ -27,5 +38,5 @@ extra:
 
 markdown_extensions:
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      "emoji_index": !!python/name:materialx.emoji.twemoji
+      "emoji_generator": !!python/name:materialx.emoji.to_svg
