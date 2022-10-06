@@ -1,8 +1,11 @@
-- [ ] On AWS Shared Responsability Model
-- AWS Well-Architected Framework Pillars
-  - [X] Operational Excellence
-  - [ ] Security
-  - [ ] Reliability
-  - [ ] Performance Efficiency
-  - [ ] Cost Optimization
-  - [ ] Sustainability
+- AWS Notes
+  - [ ] On AWS Shared Responsability Model
+  - AWS Well-Architected Framework
+    - [x] Framework Definition
+    - Pillars
+      - [X] Operational Excellence
+      - [ ] Security
+      - [ ] Reliability
+      - [ ] Performance Efficiency
+      - [ ] Cost Optimization
+      - [ ] Sustainability
