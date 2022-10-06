@@ -1,5 +1,5 @@
 - AWS Notes
-  - [ ] On AWS Shared Responsability Model
+  - [X] On AWS Shared Responsability Model
   - AWS Well-Architected Framework
     - [x] Framework Definition
     - Pillars
