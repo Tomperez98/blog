@@ -6,6 +6,6 @@
       - [X] Operational Excellence
       - [X] Security
       - [X] Reliability
-      - [ ] Performance Efficiency
-      - [ ] Cost Optimization
+      - [X] Performance Efficiency
+      - [X] Cost Optimization
       - [ ] Sustainability

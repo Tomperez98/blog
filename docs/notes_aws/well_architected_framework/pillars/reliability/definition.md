@@ -1,7 +1,8 @@
+# Reliability
 The Reliability pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle. This paper provides in-depth, best practice guidance for implementing reliable workloads on AWS.
 
 ## **Definition**
-There four best practice areas for reliability in the cloud:
+There 4 best practice areas for reliability in the cloud:
 
 - [Foundations](best_practices/foundations.md)
 - [Workload Architecture](best_practices/workload_architecture.md)

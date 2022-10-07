@@ -1,7 +1,8 @@
+# Security
 The Security pillar encompasses the ability to protect data, systems, and assets to take advantage of cloud technologies to improve your security.
 
 ## **Definition**
-There are six best practice areas for security in the cloud:
+There are 6 best practice areas for security in the cloud:
 
 - [Security](best_practices/security.md)
 - [Identity and Access Management](best_practices/identity_and_access_management.md)

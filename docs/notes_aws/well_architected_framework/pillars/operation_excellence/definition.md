@@ -1,7 +1,8 @@
+# Operational Excellence
 The Operational Excellence pillar includes the ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value.
 
 ## **Definition**
-There are four best practice areas for operational excellence in the cloud:
+There are 4 best practice areas for operational excellence in the cloud:
 
 - [Organization](best_practices/organization.md)
 - [Prepare](best_practices/prepare.md)
