@@ -96,6 +96,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+# See https://github.com/squidfunk/mkdocs-material/issues/1143#issuecomment-504640100
+plugins: []
+
 markdown_extensions:
   - attr_list
   - tables
