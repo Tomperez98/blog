@@ -2,10 +2,13 @@
   - [X] On AWS Shared Responsability Model
   - AWS Well-Architected Framework
     - [x] Framework Definition
+    - [ ] Improve pillar best practices. Add content, examples, check questions are fine.
+    - [ ] Add content on [The Review Process](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-review-process.html)
     - Pillars
       - [X] Operational Excellence
       - [X] Security
       - [X] Reliability
       - [X] Performance Efficiency
       - [X] Cost Optimization
-      - [ ] Sustainability
+      - [X] Sustainability
+    - [X] Conclude the Well-Architected Framework

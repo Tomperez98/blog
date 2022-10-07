@@ -59,6 +59,15 @@ nav:
                       - "Cost-effective resources": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/cost_effective_resources.md
                       - "Manage demand and supply resources": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/mgn_sup_dem_resources.md
                       - "Optimize over time": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/optimize_over_time.md
+              - "Sustainability":
+                  - "Definition": notes_aws/well_architected_framework/pillars/sustainability/definition.md
+                  - "Best Practices":
+                      - "Region selection": notes_aws/well_architected_framework/pillars/sustainability/best_practices/region_selection.md
+                      - "User behavior patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/user_behavior_patterns.md
+                      - "Software and architecture patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/swe_and_arch_patterns.md
+                      - "Data Patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/data_patterns.md
+                      - "Hardware patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/hardware_patterns.md
+                      - "Development and deployment patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/dev_and_deploy_patterns.md
 
 extra:
   generator: false
