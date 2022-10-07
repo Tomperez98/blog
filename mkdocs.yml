@@ -15,6 +15,7 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.prune
+    - navigation.top
 
 nav:
   - "Home": index.md
@@ -92,6 +93,8 @@ extra:
       link: https://github.com/Tomperez98/blog
 
 markdown_extensions:
+  - attr_list
+  - tables
   - pymdownx.emoji:
       "emoji_index": !!python/name:materialx.emoji.twemoji
       "emoji_generator": !!python/name:materialx.emoji.to_svg
