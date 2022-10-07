@@ -68,6 +68,7 @@ nav:
                       - "Data Patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/data_patterns.md
                       - "Hardware patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/hardware_patterns.md
                       - "Development and deployment patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/dev_and_deploy_patterns.md
+          - "Conclusion": notes_aws/well_architected_framework/conclusion.md
 
 extra:
   generator: false
