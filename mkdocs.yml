@@ -8,6 +8,14 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.sections
+    - navigation.prune
+
 nav:
   - "Home": index.md
   - "Experience": experience.md
@@ -47,7 +55,12 @@ nav:
               - "Performance Efficiency":
                   - "Definition": notes_aws/well_architected_framework/pillars/perf_efficiency/definition.md
                   - "Best Practices":
-                      - "Selection": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection.md
+                      - "Selection":
+                          - notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/index.md
+                          - "Compute": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/compute.md
+                          - "Storage": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/storage.md
+                          - "Database": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/database.md
+                          - "Network": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/network.md
                       - "Review": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/review.md
                       - "Monitoring": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/monitoring.md
                       - "Tradeoffs": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/tradeoffs.md

@@ -4,7 +4,7 @@ The Performance Efficiency pillar includes the ability to use computing resource
 ## **Definition**
 There are 4 best practice areas for performance efficiency in the cloud:
 
-- [Selection](best_practices/selection.md)
+- [Selection](best_practices/selection/index.md)
 - [Review](best_practices/review.md)
 - [Monitoring](best_practices/monitoring.md)
 - [Tradeoffs](best_practices/tradeoffs.md)
