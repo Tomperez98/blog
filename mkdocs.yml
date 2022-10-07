@@ -85,12 +85,15 @@ nav:
           - "Conclusion": notes_aws/well_architected_framework/conclusion.md
 
 extra:
-  generator: false
+  generator: true
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tomas-perez-alvarez/
     - icon: fontawesome/brands/github
       link: https://github.com/Tomperez98/blog
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
