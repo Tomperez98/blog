@@ -18,11 +18,12 @@ theme:
     - navigation.top
 
 nav:
-  - "Home": index.md
-  - "Experience": experience.md
-  - "Tech Stack": tech_stack.md
-  - "Certifications": certifications.md
-  - "Interests": interests.md
+  - "Home":
+      - index.md
+      - "Experience": experience.md
+      - "Tech Stack": tech_stack.md
+      - "Certifications": certifications.md
+      - "Interests": interests.md
   - "Projects":
       - "Loan Management System": projects/loan-management-system.md
   - "Notes AWS":
