@@ -86,7 +86,7 @@ nav:
           - "Conclusion": notes_aws/well_architected_framework/conclusion.md
 
 extra:
-  generator: true
+  generator: false
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tomas-perez-alvarez/
