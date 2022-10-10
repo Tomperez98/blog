@@ -33,39 +33,27 @@ In the AWS Well-Architected Framework, we use these terms:
 - Within an organization the **technology portfolio** is the collection of workloads that are required for the busness to operate.
 
 ### **General Design Principles**
-<details>
-<summary>Stop guessing your capacity needs</summary>
-<p>
-With cloud you don't need to guess your capacity needs up-front. If you need more scale-up, if you need less scale-down. Start small and cheap.
-</p>
-</details>
-<details>
-<summary>Test systems at production scale</summary>
-<p>
-With cloud you can create a copy of your production environment to test your applications at the same scale for a fraction of the cost (Spin up your test infrastructure -> Test your application -> Destroy your test infrastructure)
-</p>
-</details>
-<details>
-<summary>Automate to make architectural experimentation easier</summary>
-<p>
-Automate everything. As much as you can. Automation is an investment and that's paid off lowering manual effort, enabling version tracking and an easy version revert.
-</p>
-</details>
-<details>
-<summary>Allow for evolutionary architectures</summary>
-<p>
-With cloud it's easier and possible to refactor your complete architecture. Lower switching cost enable your business to adapt and evolve as changes and requirements appear.
-</p>
-</details>
-<details>
-<summary>Drive architecture using data</summary>
-<p>
-Cloud reports data about your architecture, collect it. Make incremental improvement and iterate as new data comes in. This is a repetitive process.
-</p>
-</details>
-<details>
-<summary>Improve through game days</summary>
-<p>
-Cloud allow you to play and stress test your architecture. Schedule regular play games, to simulate processes, edge cases, and new implementations.
-</p>
-</details>
+
+??? tip "Stop guessing your capacity needs"
+
+    With cloud you don't need to guess your capacity needs up-front. If you need more scale-up, if you need less scale-down. Start small and cheap.
+
+??? tip "Test systems at production scale"
+
+    With cloud you can create a copy of your production environment to test your applications at the same scale for a fraction of the cost (Spin up your test infrastructure -> Test your application -> Destroy your test infrastructure)
+
+??? tip "Automate to make architectural experimentation easier"
+
+    Automate everything. As much as you can. Automation is an investment and that's paid off lowering manual effort, enabling version tracking and an easy version revert.
+
+??? tip "Allow for evolutionary architectures"
+
+    With cloud it's easier and possible to refactor your complete architecture. Lower switching cost enable your business to adapt and evolve as changes and requirements appear.
+
+??? tip "Drive architecture using data"
+
+    Cloud reports data about your architecture, collect it. Make incremental improvement and iterate as new data comes in. This is a repetitive process.
+
+??? tip "Improve through game days"
+
+    Cloud allow you to play and stress test your architecture. Schedule regular play games, to simulate processes, edge cases, and new implementations.
