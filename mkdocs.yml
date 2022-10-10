@@ -1,6 +1,20 @@
 site_name: Tomas Perez
 theme:
   name: material
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
 
   palette:
     primary: blue grey
@@ -84,6 +98,7 @@ nav:
                       - "Hardware patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/hardware-patterns.md
                       - "Development and deployment patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/dev-and-deploy-patterns.md
           - "Conclusion": notes-aws/well-architected-framework/conclusion.md
+          - "Well-Architected Tool": notes-aws/well-architected-framework/well-architected-tool.md
 
 extra:
   generator: false
@@ -100,6 +115,9 @@ extra_css:
 plugins: []
 
 markdown_extensions:
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - tables
   - pymdownx.emoji:
