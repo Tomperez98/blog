@@ -4,10 +4,10 @@ The Operational Excellence pillar includes the ability to support development an
 ## **Definition**
 There are 4 best practice areas for operational excellence in the cloud:
 
-- [Organization](best_practices/organization.md)
-- [Prepare](best_practices/prepare.md)
-- [Operate](best_practices/operate.md)
-- [Evolve](best_practices/evolve.md)
+- [Organization](best-practices/organization.md)
+- [Prepare](best-practices/prepare.md)
+- [Operate](best-practices/operate.md)
+- [Evolve](best-practices/evolve.md)
 
 Your organization's leadership defines business objectives. Your organization must understand requirements and priorities and use these to organize and conduct work to support the achievement of business outcomes. Your workloads must emit the information necessary to support it. ***Implementing services to enable integration, deployment, and delivery of your workload will enable an increased flow of beneficial changes into production by automating repetitive processes.***
 

@@ -4,12 +4,12 @@ The Security pillar encompasses the ability to protect data, systems, and assets
 ## **Definition**
 There are 6 best practice areas for security in the cloud:
 
-- [Security](best_practices/security.md)
-- [Identity and Access Management](best_practices/identity_and_access_management.md)
-- [Detection](best_practices/detection.md)
-- [Infrastructure Protection](best_practices/infrastructure_protection.md)
-- [Data Protection](best_practices/data_protection.md)
-- [Incident Response](best_practices/incident_response.md)
+- [Security](best-practices/security.md)
+- [Identity and Access Management](best-practices/identity-and-access-mngt.md)
+- [Detection](best-practices/detection.md)
+- [Infrastructure Protection](best-practices/infrastructure-protection.md)
+- [Data Protection](best-practices/data-protection.md)
+- [Incident Response](best-practices/incident-response.md)
 
 Before you architect any workload, you need to put in place practices that influence security. ***You will want to control who can do what***. In addition you want to be able to identify security incidents, protect your systems and services, and maintain the confidentiality and integrity of data through data protection. You should have a well-defined and practiced process for responding to security incidents.
 

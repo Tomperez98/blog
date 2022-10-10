@@ -17,12 +17,12 @@ The AWS Well-Architected Framework is based on six pillars - Operational Excelle
 
 |                                   Name                                   |                                                                   Description                                                                    |
 | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
-| **[Operational Excellence](pillars/operation_excellence/definition.md)** | To support development and run workloads effectively, and to continuosly improve supporting processes and procedures to delivery business value. |
+| **[Operational Excellence](pillars/operation-excellence/definition.md)** | To support development and run workloads effectively, and to continuosly improve supporting processes and procedures to delivery business value. |
 |              **[Security](pillars/security/definition.md)**              |                                How to take advantage of cloud technologies to protect data, systems, and assets.                                 |
-|                             **Reliability**                              |                     Ability for a workload to perform consistently as expected. Expected both in functionality and on time.                      |
-|                        **Performance Efficiency**                        |  To use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.  |
-|                          **Cost Optimization**                           |                                               To deliver business value at the lowest price point.                                               |
-|                            **Sustainability**                            |   To continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload.    |
+|           **[Reliability](pillars/reliability/definition.md)**           |                     Ability for a workload to perform consistently as expected. Expected both in functionality and on time.                      |
+|   **[Performance Efficiency](pillars/perf-efficiency/definition.md)**    |  To use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.  |
+|     **[Cost Optimization](pillars/cost-optimization/definition.md)**     |                                               To deliver business value at the lowest price point.                                               |
+|        **[Sustainability](pillars/sustainability/definition.md)**        |   To continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload.    |
 
 In the AWS Well-Architected Framework, we use these terms:
 

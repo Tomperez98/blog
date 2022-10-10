@@ -4,12 +4,12 @@ The Sustainability pillar focuses on environmental impacts, especially energy co
 ## **Definition**
 There are 6 best practice areas for sustainability in the cloud:
 
-- [Region selection](best_practices/region_selection.md)
-- [User behavior patterns](best_practices/user_behavior_patterns.md)
-- [Software and architecture patterns](best_practices/swe_and_arch_patterns.md)
-- [Data patterns](best_practices/data_patterns.md)
-- [Hardware patterns](best_practices/hardware_patterns.md)
-- [Development and deployment process](best_practices/dev_and_deploy_patterns.md)
+- [Region selection](best-practices/region-selection.md)
+- [User behavior patterns](best-practices/user-behavior-patterns.md)
+- [Software and architecture patterns](best-practices/swe-and-arch-patterns.md)
+- [Data patterns](best-practices/data-patterns.md)
+- [Hardware patterns](best-practices/hardware-patterns.md)
+- [Development and deployment process](best-practices/dev-and-deploy-patterns.md)
 
 Sustainability in the cloud is a continuous effort focused primarily on energy reduction and efficiency across all components of a workload by achieving the maximum benefit from the resources provisioned and minimizing the total resources required. This effort can range from the initial selection of an efficient programming language, adoption of modern algorithms, use of efficient data storage techniques, deploying to correctly sized and efficient compute infrastructure, and minimizing requirements for high-powered end-user hardware.
 

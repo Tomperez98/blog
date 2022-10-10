@@ -4,10 +4,10 @@ The Performance Efficiency pillar includes the ability to use computing resource
 ## **Definition**
 There are 4 best practice areas for performance efficiency in the cloud:
 
-- [Selection](best_practices/selection/index.md)
-- [Review](best_practices/review.md)
-- [Monitoring](best_practices/monitoring.md)
-- [Tradeoffs](best_practices/tradeoffs.md)
+- [Selection](best-practices/selection/index.md)
+- [Review](best-practices/review.md)
+- [Monitoring](best-practices/monitoring.md)
+- [Tradeoffs](best-practices/tradeoffs.md)
 
 Take a data-driven approach to building a high-performance architecture. Gather data on all aspects of the architecture, from the high-level design to the selection and configuration of resource types.
 

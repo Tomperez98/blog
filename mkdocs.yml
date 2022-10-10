@@ -21,69 +21,69 @@ nav:
   - "Home":
       - index.md
       - "Experience": experience.md
-      - "Tech Stack": tech_stack.md
+      - "Tech Stack": tech-stack.md
       - "Certifications": certifications.md
       - "Interests": interests.md
   - "Projects":
       - "Loan Management System": projects/loan-management-system.md
   - "Notes AWS":
-      - "Shared Responsability Model": notes_aws/shared_responsability_model.md
+      - "Shared Responsability Model": notes-aws/shared-responsability-model.md
       - "Well-Architected Framework":
-          - "Framework": notes_aws/well_architected_framework/framework.md
+          - "Framework": notes-aws/well-architected-framework/framework.md
           - "Pillars":
               - "Operational Excellence":
-                  - "Definition": notes_aws/well_architected_framework/pillars/operation_excellence/definition.md
+                  - "Definition": notes-aws/well-architected-framework/pillars/operation-excellence/definition.md
                   - "Best Practices":
-                      - "Organization": notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/organization.md
-                      - "Prepare": notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/prepare.md
-                      - "Operate": notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/operate.md
-                      - "Evolve": notes_aws/well_architected_framework/pillars/operation_excellence/best_practices/evolve.md
+                      - "Organization": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/organization.md
+                      - "Prepare": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/prepare.md
+                      - "Operate": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/operate.md
+                      - "Evolve": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/evolve.md
               - "Security":
-                  - "Definition": notes_aws/well_architected_framework/pillars/security/definition.md
+                  - "Definition": notes-aws/well-architected-framework/pillars/security/definition.md
                   - "Best Practices":
-                      - "Security": notes_aws/well_architected_framework/pillars/security/best_practices/security.md
-                      - "Identity and Access Management": notes_aws/well_architected_framework/pillars/security/best_practices/identity_and_access_management.md
-                      - "Detection": notes_aws/well_architected_framework/pillars/security/best_practices/detection.md
-                      - "Infrastructure Protection": notes_aws/well_architected_framework/pillars/security/best_practices/infrastructure_protection.md
-                      - "Data Protection": notes_aws/well_architected_framework/pillars/security/best_practices/data_protection.md
-                      - "Incident Response": notes_aws/well_architected_framework/pillars/security/best_practices/incident_response.md
+                      - "Security": notes-aws/well-architected-framework/pillars/security/best-practices/security.md
+                      - "Identity and Access Management": notes-aws/well-architected-framework/pillars/security/best-practices/identity-and-access-mngt.md
+                      - "Detection": notes-aws/well-architected-framework/pillars/security/best-practices/detection.md
+                      - "Infrastructure Protection": notes-aws/well-architected-framework/pillars/security/best-practices/infrastructure-protection.md
+                      - "Data Protection": notes-aws/well-architected-framework/pillars/security/best-practices/data-protection.md
+                      - "Incident Response": notes-aws/well-architected-framework/pillars/security/best-practices/incident-response.md
               - "Reliability":
-                  - "Definition": notes_aws/well_architected_framework/pillars/reliability/definition.md
+                  - "Definition": notes-aws/well-architected-framework/pillars/reliability/definition.md
                   - "Best Practices":
-                      - "Foundations": notes_aws/well_architected_framework/pillars/reliability/best_practices/foundations.md
-                      - "Workload Architecture": notes_aws/well_architected_framework/pillars/reliability/best_practices/workload_architecture.md
-                      - "Change Management": notes_aws/well_architected_framework/pillars/reliability/best_practices/change_management.md
-                      - "Failure Management": notes_aws/well_architected_framework/pillars/reliability/best_practices/failure_management.md
+                      - "Foundations": notes-aws/well-architected-framework/pillars/reliability/best-practices/foundations.md
+                      - "Workload Architecture": notes-aws/well-architected-framework/pillars/reliability/best-practices/workload-architecture.md
+                      - "Change Management": notes-aws/well-architected-framework/pillars/reliability/best-practices/change-management.md
+                      - "Failure Management": notes-aws/well-architected-framework/pillars/reliability/best-practices/failure-management.md
               - "Performance Efficiency":
-                  - "Definition": notes_aws/well_architected_framework/pillars/perf_efficiency/definition.md
+                  - "Definition": notes-aws/well-architected-framework/pillars/perf-efficiency/definition.md
                   - "Best Practices":
                       - "Selection":
-                          - notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/index.md
-                          - "Compute": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/compute.md
-                          - "Storage": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/storage.md
-                          - "Database": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/database.md
-                          - "Network": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/selection/network.md
-                      - "Review": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/review.md
-                      - "Monitoring": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/monitoring.md
-                      - "Tradeoffs": notes_aws/well_architected_framework/pillars/perf_efficiency/best_practices/tradeoffs.md
+                          - notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/selection/index.md
+                          - "Compute": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/selection/compute.md
+                          - "Storage": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/selection/storage.md
+                          - "Database": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/selection/database.md
+                          - "Network": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/selection/network.md
+                      - "Review": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/review.md
+                      - "Monitoring": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/monitoring.md
+                      - "Tradeoffs": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/tradeoffs.md
               - "Cost Optimization":
-                  - "Definition": notes_aws/well_architected_framework/pillars/cost_optimization/definition.md
+                  - "Definition": notes-aws/well-architected-framework/pillars/cost-optimization/definition.md
                   - "Best Practices":
-                      - "Practice Cloud Financial Management": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/cloud_financial_mgmt.md
-                      - "Expenditure and usage awareness": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/exp_and_usg_awareness.md
-                      - "Cost-effective resources": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/cost_effective_resources.md
-                      - "Manage demand and supply resources": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/mgn_sup_dem_resources.md
-                      - "Optimize over time": notes_aws/well_architected_framework/pillars/cost_optimization/best_practices/optimize_over_time.md
+                      - "Practice Cloud Financial Management": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/cloud-financial-mgmt.md
+                      - "Expenditure and usage awareness": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/exp-and-usg-awareness.md
+                      - "Cost-effective resources": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/cost-effective-resources.md
+                      - "Manage demand and supply resources": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/mgn-sup-dem-resources.md
+                      - "Optimize over time": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/optimize-over-time.md
               - "Sustainability":
-                  - "Definition": notes_aws/well_architected_framework/pillars/sustainability/definition.md
+                  - "Definition": notes-aws/well-architected-framework/pillars/sustainability/definition.md
                   - "Best Practices":
-                      - "Region selection": notes_aws/well_architected_framework/pillars/sustainability/best_practices/region_selection.md
-                      - "User behavior patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/user_behavior_patterns.md
-                      - "Software and architecture patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/swe_and_arch_patterns.md
-                      - "Data Patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/data_patterns.md
-                      - "Hardware patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/hardware_patterns.md
-                      - "Development and deployment patterns": notes_aws/well_architected_framework/pillars/sustainability/best_practices/dev_and_deploy_patterns.md
-          - "Conclusion": notes_aws/well_architected_framework/conclusion.md
+                      - "Region selection": notes-aws/well-architected-framework/pillars/sustainability/best-practices/region-selection.md
+                      - "User behavior patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/user-behavior-patterns.md
+                      - "Software and architecture patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/swe-and-arch-patterns.md
+                      - "Data Patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/data-patterns.md
+                      - "Hardware patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/hardware-patterns.md
+                      - "Development and deployment patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/dev-and-deploy-patterns.md
+          - "Conclusion": notes-aws/well-architected-framework/conclusion.md
 
 extra:
   generator: false
