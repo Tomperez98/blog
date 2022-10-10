@@ -14,33 +14,23 @@ As with the other pillars within the Well-Architected Framework, there are trade
 
 ## **Design principles**
 There are 5 design principles for cost optimization in the cloud:
-<details>
-<summary>Implement Cloud Financial Management</summary>
-<p>
-To achieve financial success and accelerate business value realization in the cloud, you need to invest in Cloud Financial Management /Cost Optimization. Your organization needs to dedicate time and resources to build capability in this new domain of technology and usage management. Similar to your Security or Operational Excellence capability, you need to build capability through knowledge building, programs, resources, and processes to become a cost-efficient organization.
-</p>
-</details>
-<details>
-<summary>Adopt a consumption model</summary>
-<p>
-Pay only for the computing resources that you require and increase or decrease usage depending on business requirements, not by using elaborate forecasting. For example, development and test environments are typically only used for eight hours a day during the work week. You can stop these resources when they are not in use for a potential cost savings of 75% (40 hours versus 168 hours).
-</p>
-</details>
-<details>
-<summary>Measure overall efficiency</summary>
-<p>
-Measure the business output of the workload and the costs associated with delivering it. Use this measure to know the gains you make from increasing output and reducing costs.
-</p>
-</details>
-<details>
-<summary>Stop spending money on undifferentiated heavy lifting</summary>
-<p>
-AWS does the heavy lifting of data center operations like racking, stacking, and powering servers. It also removes the operational burden of managing operating systems and applications with managed services. This allows you to focus on your customers and business projects rather than on IT infrastructure.
-</p>
-</details>
-<details>
-<summary>Analyze and attribute expenditure</summary>
-<p>
-The cloud makes it easier to accurately identify the usage and cost of systems, which then allows transparent attribution of IT costs to individual workload owners. This helps measure return on investment (ROI) and gives workload owners an opportunity to optimize their resources and reduce costs.
-</p>
-</details>
+
+??? note "Implement Cloud Financial Management"
+    
+    To achieve financial success and accelerate business value realization in the cloud, you need to invest in Cloud Financial Management /Cost Optimization. Your organization needs to dedicate time and resources to build capability in this new domain of technology and usage management. Similar to your Security or Operational Excellence capability, you need to build capability through knowledge building, programs, resources, and processes to become a cost-efficient organization.
+
+??? note "Adopt a consumption model"
+    
+    Pay only for the computing resources that you require and increase or decrease usage depending on business requirements, not by using elaborate forecasting. For example, development and test environments are typically only used for eight hours a day during the work week. You can stop these resources when they are not in use for a potential cost savings of 75% (40 hours versus 168 hours).
+
+??? note "Measure overall efficiency"
+    
+    Measure the business output of the workload and the costs associated with delivering it. Use this measure to know the gains you make from increasing output and reducing costs.
+
+??? note "Stop spending money on undifferentiated heavy lifting"
+    
+    AWS does the heavy lifting of data center operations like racking, stacking, and powering servers. It also removes the operational burden of managing operating systems and applications with managed services. This allows you to focus on your customers and business projects rather than on IT infrastructure.
+
+??? note "Analyze and attribute expenditure"
+    
+    The cloud makes it easier to accurately identify the usage and cost of systems, which then allows transparent attribution of IT costs to individual workload owners. This helps measure return on investment (ROI) and gives workload owners an opportunity to optimize their resources and reduce costs.
