@@ -15,33 +15,22 @@ Reviewing your choices on a regular basis ensures that you are taking advantage 
 
 ## **Design principles**
 There are 5 design principles for performance efficiency in the cloud:
-<details>
-<summary>Democratize advanced technologies</summary>
-<p>
-Make advanced technology implementation easier for your team by delegating complex tasks to your cloud vendor. Rather than asking your IT team to learn about hosting and running a new technology, consider consuming the technology as a service. For example, NoSQL databases, media transcoding, and machine learning are all technologies that require specialized expertise. In the cloud, these technologies become services that your team can consume, allowing your team to focus on product development rather than resource provisioning and management.
-</p>
-</details>
-<details>
-<summary>Go global in minutes</summary>
-<p>
-Deploying your workload in multiple AWS Regions around the world allows you to provide lower latency and a better experience for your customers at minimal cost.
-</p>
-</details>
-<details>
-<summary>Use serverless architectures</summary>
-<p>
-Serverless architectures remove the need for you to run and maintain physical servers for traditional compute activities. For example, serverless storage services can act as static websites (removing the need for web servers) and event services can host code. This removes the operational burden of managing physical servers, and can lower transactional costs because managed services operate at cloud scale.
-</p>
-</details>
-<details>
-<summary>Experiment more often</summary>
-<p>
-With virtual and automatable resources, you can quickly carry out comparative testing using different types of instances, storage, or configurations.
-</p>
-</details>
-<details>
-<summary>Consider mechanical sympathy</summary>
-<p>
-Understand how cloud services are consumed and always use the technology approach that aligns best with your workload goals. For example, consider data access patterns when you select database or storage approaches.
-</p>
-</details>
+??? note "Democratize advanced technologies"
+
+    Make advanced technology implementation easier for your team by delegating complex tasks to your cloud vendor. Rather than asking your IT team to learn about hosting and running a new technology, consider consuming the technology as a service. For example, NoSQL databases, media transcoding, and machine learning are all technologies that require specialized expertise. In the cloud, these technologies become services that your team can consume, allowing your team to focus on product development rather than resource provisioning and management.
+
+??? note "Go global in minutes"
+
+    Deploying your workload in multiple AWS Regions around the world allows you to provide lower latency and a better experience for your customers at minimal cost.
+
+??? note "Use serverless architectures"
+
+    Serverless architectures remove the need for you to run and maintain physical servers for traditional compute activities. For example, serverless storage services can act as static websites (removing the need for web servers) and event services can host code. This removes the operational burden of managing physical servers, and can lower transactional costs because managed services operate at cloud scale.
+
+??? note "Experiment more often"
+
+    With virtual and automatable resources, you can quickly carry out comparative testing using different types of instances, storage, or configurations.
+
+??? note "Consider mechanical sympathy"
+
+    Understand how cloud services are consumed and always use the technology approach that aligns best with your workload goals. For example, consider data access patterns when you select database or storage approaches.
