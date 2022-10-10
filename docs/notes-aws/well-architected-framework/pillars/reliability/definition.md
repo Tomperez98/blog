@@ -4,10 +4,10 @@ The Reliability pillar encompasses the ability of a workload to perform its inte
 ## **Definition**
 There 4 best practice areas for reliability in the cloud:
 
-- [Foundations](best_practices/foundations.md)
-- [Workload Architecture](best_practices/workload_architecture.md)
-- [Change Management](best_practices/change_management.md)
-- [Failure Management](best_practices/failure_management.md)
+- [Foundations](best-practices/foundations.md)
+- [Workload Architecture](best-practices/workload-architecture.md)
+- [Change Management](best-practices/change-management.md)
+- [Failure Management](best-practices/failure-management.md)
 
 To achieve reliability you must start with the foundations - an environment where service quotas and network topology accommodate the workload. **The workload architecture of the distributed system must be designed to prevent and mitigate failures.** The workload must handle changes in demand or requirements, and it must be designed to detect failure and automatically heal itself.
 
