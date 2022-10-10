@@ -97,6 +97,7 @@ nav:
                       - "Data Patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/data-patterns.md
                       - "Hardware patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/hardware-patterns.md
                       - "Development and deployment patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/dev-and-deploy-patterns.md
+          - "The Review Process": notes-aws/well-architected-framework/review-process.md
           - "Conclusion": notes-aws/well-architected-framework/conclusion.md
           - "Well-Architected Tool": notes-aws/well-architected-framework/well-architected-tool.md
 
