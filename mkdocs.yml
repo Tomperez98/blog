@@ -91,6 +91,7 @@ nav:
                       - "Cost-effective resources": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/cost-effective-resources.md
                       - "Manage demand and supply resources": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/mgn-sup-dem-resources.md
                       - "Optimize over time": notes-aws/well-architected-framework/pillars/cost-optimization/best-practices/optimize-over-time.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/cost-optimization/conclusion.md
               - "Sustainability":
                   - "Definition": notes-aws/well-architected-framework/pillars/sustainability/definition.md
                   - "Best Practices":
