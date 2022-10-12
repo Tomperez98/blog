@@ -52,15 +52,17 @@ nav:
                       - "Prepare": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/prepare.md
                       - "Operate": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/operate.md
                       - "Evolve": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/evolve.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/operation-excellence/conclusion.md
               - "Security":
                   - "Definition": notes-aws/well-architected-framework/pillars/security/definition.md
                   - "Best Practices":
-                      - "Security": notes-aws/well-architected-framework/pillars/security/best-practices/security.md
+                      - "Security Foundations": notes-aws/well-architected-framework/pillars/security/best-practices/security-foundations.md
                       - "Identity and Access Management": notes-aws/well-architected-framework/pillars/security/best-practices/identity-and-access-mngt.md
                       - "Detection": notes-aws/well-architected-framework/pillars/security/best-practices/detection.md
                       - "Infrastructure Protection": notes-aws/well-architected-framework/pillars/security/best-practices/infrastructure-protection.md
                       - "Data Protection": notes-aws/well-architected-framework/pillars/security/best-practices/data-protection.md
                       - "Incident Response": notes-aws/well-architected-framework/pillars/security/best-practices/incident-response.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/security/conclusion.md
               - "Reliability":
                   - "Definition": notes-aws/well-architected-framework/pillars/reliability/definition.md
                   - "Best Practices":
@@ -80,6 +82,7 @@ nav:
                       - "Review": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/review.md
                       - "Monitoring": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/monitoring.md
                       - "Tradeoffs": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/tradeoffs.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/perf-efficiency/conclusion.md
               - "Cost Optimization":
                   - "Definition": notes-aws/well-architected-framework/pillars/cost-optimization/definition.md
                   - "Best Practices":

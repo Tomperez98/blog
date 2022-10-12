@@ -4,7 +4,7 @@ The Security pillar encompasses the ability to protect data, systems, and assets
 ## **Definition**
 There are 6 best practice areas for security in the cloud:
 
-- [Security](best-practices/security.md)
+- [Security Foundations](best-practices/security-foundations.md)
 - [Identity and Access Management](best-practices/identity-and-access-mngt.md)
 - [Detection](best-practices/detection.md)
 - [Infrastructure Protection](best-practices/infrastructure-protection.md)
@@ -45,3 +45,5 @@ There are 7 design principles for security in the cloud:
 ??? note "Prepare for security events"
 
     Prepare for an incident by having incident management and investigation policy and processes that align to your organizational requirements. Run incident response simulations and use tools with automation to increase your speed for detection, investigation, and recovery.
+
+<a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html">![aws-logo](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)</a>
