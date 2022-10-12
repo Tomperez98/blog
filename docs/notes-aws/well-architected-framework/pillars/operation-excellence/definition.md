@@ -34,3 +34,5 @@ There 5 design principles for operational excellence in the cloud:
 ??? note "Learn from all operational failures"
 
     Drive improvement through lessons learned from all operational events and failures. Share what is learned across teams and through the entire organization.
+
+<a href="https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html">![aws-logo](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)</a>
