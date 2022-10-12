@@ -52,6 +52,7 @@ nav:
                       - "Prepare": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/prepare.md
                       - "Operate": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/operate.md
                       - "Evolve": notes-aws/well-architected-framework/pillars/operation-excellence/best-practices/evolve.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/operation-excellence/conclusion.md
               - "Security":
                   - "Definition": notes-aws/well-architected-framework/pillars/security/definition.md
                   - "Best Practices":
