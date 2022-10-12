@@ -34,3 +34,5 @@ There are 5 design principles for cost optimization in the cloud:
 ??? note "Analyze and attribute expenditure"
     
     The cloud makes it easier to accurately identify the usage and cost of systems, which then allows transparent attribution of IT costs to individual workload owners. This helps measure return on investment (ROI) and gives workload owners an opportunity to optimize their resources and reduce costs.
+
+<a href="https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html">![aws-logo](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)</a>
