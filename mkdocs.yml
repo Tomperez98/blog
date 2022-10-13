@@ -82,6 +82,7 @@ nav:
                       - "Review": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/review.md
                       - "Monitoring": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/monitoring.md
                       - "Tradeoffs": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/tradeoffs.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/perf-efficiency/conclusion.md
               - "Cost Optimization":
                   - "Definition": notes-aws/well-architected-framework/pillars/cost-optimization/definition.md
                   - "Best Practices":
