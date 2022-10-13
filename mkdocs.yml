@@ -82,6 +82,7 @@ nav:
                       - "Review": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/review.md
                       - "Monitoring": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/monitoring.md
                       - "Tradeoffs": notes-aws/well-architected-framework/pillars/perf-efficiency/best-practices/tradeoffs.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/perf-efficiency/conclusion.md
               - "Cost Optimization":
                   - "Definition": notes-aws/well-architected-framework/pillars/cost-optimization/definition.md
                   - "Best Practices":
@@ -100,6 +101,7 @@ nav:
                       - "Data Patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/data-patterns.md
                       - "Hardware patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/hardware-patterns.md
                       - "Development and deployment patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/dev-and-deploy-patterns.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/sustainability/conclusion.md
           - "The Review Process": notes-aws/well-architected-framework/review-process.md
           - "Conclusion": notes-aws/well-architected-framework/conclusion.md
           - "Well-Architected Tool": notes-aws/well-architected-framework/well-architected-tool.md
