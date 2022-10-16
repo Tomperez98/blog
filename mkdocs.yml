@@ -70,6 +70,7 @@ nav:
                       - "Workload Architecture": notes-aws/well-architected-framework/pillars/reliability/best-practices/workload-architecture.md
                       - "Change Management": notes-aws/well-architected-framework/pillars/reliability/best-practices/change-management.md
                       - "Failure Management": notes-aws/well-architected-framework/pillars/reliability/best-practices/failure-management.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/reliability/conclusion.md
               - "Performance Efficiency":
                   - "Definition": notes-aws/well-architected-framework/pillars/perf-efficiency/definition.md
                   - "Best Practices":
