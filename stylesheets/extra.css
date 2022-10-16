@@ -1,0 +1,4 @@
+/* See https://github.com/squidfunk/mkdocs-material/discussions/3489#discussioncomment-2876176 */
+.md-footer__inner:not([hidden]) {
+    display: none
+}
