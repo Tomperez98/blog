@@ -70,6 +70,7 @@ nav:
                       - "Workload Architecture": notes-aws/well-architected-framework/pillars/reliability/best-practices/workload-architecture.md
                       - "Change Management": notes-aws/well-architected-framework/pillars/reliability/best-practices/change-management.md
                       - "Failure Management": notes-aws/well-architected-framework/pillars/reliability/best-practices/failure-management.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/reliability/conclusion.md
               - "Performance Efficiency":
                   - "Definition": notes-aws/well-architected-framework/pillars/perf-efficiency/definition.md
                   - "Best Practices":
@@ -101,6 +102,7 @@ nav:
                       - "Data Patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/data-patterns.md
                       - "Hardware patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/hardware-patterns.md
                       - "Development and deployment patterns": notes-aws/well-architected-framework/pillars/sustainability/best-practices/dev-and-deploy-patterns.md
+                  - "Conclusion": notes-aws/well-architected-framework/pillars/sustainability/conclusion.md
           - "The Review Process": notes-aws/well-architected-framework/review-process.md
           - "Conclusion": notes-aws/well-architected-framework/conclusion.md
           - "Well-Architected Tool": notes-aws/well-architected-framework/well-architected-tool.md

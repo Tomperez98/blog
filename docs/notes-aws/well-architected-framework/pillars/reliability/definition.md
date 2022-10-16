@@ -33,3 +33,5 @@ There are 5 design principles for reliability in the cloud:
 ??? note "Manage change in automation"
 
     Changes to your infrastructure should be made using automation. The changes that need to be managed include changes to the automation, which then can be tracked and reviewed.
+
+<a href="https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html">![aws-logo](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)</a>
