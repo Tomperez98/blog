@@ -1,6 +1,7 @@
 name: cd
 
 on:
+  workflow_dispatch:
   release:
     types: [released]
 
@@ -48,8 +49,6 @@ jobs:
       - name: Upload Production Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Standard Svelte/SvelteKit builds to "build".
-          # If using vanilla Svelte+Vite, change this to "dist".
           path: 'build'
 
       - name: Deploy to GitHub Pages
