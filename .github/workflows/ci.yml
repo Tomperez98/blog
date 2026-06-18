@@ -34,6 +34,13 @@ jobs:
           key: bun-${{ hashFiles('bun.lock') }}
           restore-keys: bun-
 
+      - name: cache playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('bun.lock') }}
+          restore-keys: playwright-
+
       - name: install dependencies
         run: bun install --frozen-lockfile
 
