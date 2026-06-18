@@ -1,7 +1,7 @@
 import { parse } from 'yaml';
 import { GITHUB_TOKEN } from '$env/static/private';
 import { getLocale } from '$lib/paraglide/runtime';
-import { CVSchema } from '$lib/schemas';
+import { CVSchema } from '$lib/schemas/cv';
 
 // Prerender at build time: GITHUB_TOKEN stays server-side, data baked into HTML.
 export const prerender = true;

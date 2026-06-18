@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { Navbar, NavBrand, NavUl, NavLi } from 'flowbite-svelte';
 	import { getLocale, setLocale } from '$lib/paraglide/runtime';
-	import type { CVSchema, SocialNetworkSchema } from '$lib/schemas';
+	import type { CVSchema, SocialNetworkSchema } from '$lib/schemas/cv';
 	import { z } from 'zod';
-	import { assertNever } from './utils';
+	import { assertNever } from '$lib/utils';
 
 	let { cv }: { cv: z.infer<typeof CVSchema>['cv'] } = $props();
 

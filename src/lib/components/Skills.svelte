@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { m } from '$lib/paraglide/messages';
-	import type { SkillSchema } from '$lib/schemas';
+	import type { SkillSchema } from '$lib/schemas/cv';
 	import type { z } from 'zod';
 
 	let { skills }: { skills: z.infer<typeof SkillSchema>[] } = $props();

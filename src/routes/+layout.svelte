@@ -5,7 +5,7 @@
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
-	import Header from '$lib/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 
 	let { children, data } = $props();
 </script>
