@@ -42,5 +42,8 @@ jobs:
       - name: check linting
         run: bun run check && bun run lint
 
+      - name: install playwright browsers
+        run: npx playwright install --with-deps
+
       - name: run tests
         run: bun run test:unit
