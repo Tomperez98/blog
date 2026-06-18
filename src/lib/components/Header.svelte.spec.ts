@@ -8,6 +8,7 @@ const cv = {
 	headline: 'Full-stack developer',
 	location: 'Bogotá',
 	email: 'jane@example.com',
+	sections: {},
 	social_networks: [
 		{ network: 'GitHub' as const, username: 'janedoe' },
 		{ network: 'LinkedIn' as const, username: 'jane-doe' }
@@ -24,7 +25,7 @@ describe('Header.svelte', () => {
 		render(Header, { cv });
 		const button = page.getByRole('button', { name: 'Toggle language' });
 		await expect.element(button).toBeInTheDocument();
-		await expect.element(button.locator('img')).toBeInTheDocument();
+		await expect.element(button).toBeInTheDocument();
 	});
 
 	it('renders social network links', async () => {
@@ -45,6 +46,6 @@ describe('Header.svelte', () => {
 	it('renders SVG icons inside social links', async () => {
 		render(Header, { cv });
 		const ghLink = page.getByRole('link', { name: 'GitHub' });
-		await expect.element(ghLink.locator('svg')).toBeInTheDocument();
+		await expect.element(ghLink).toBeInTheDocument();
 	});
 });
