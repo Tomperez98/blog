@@ -18,6 +18,9 @@ jobs:
   run:
     runs-on: ubuntu-latest
 
+    env:
+      CV_REPO_TOKEN: ${{ secrets.CV_REPO_TOKEN }}
+
     steps:
       - uses: actions/checkout@v4
 
