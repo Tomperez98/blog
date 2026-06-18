@@ -1,9 +1,9 @@
 import { parse } from 'yaml';
-import { GITHUB_TOKEN } from '$env/static/private';
+import { CV_REPO_TOKEN } from '$env/static/private';
 import { getLocale } from '$lib/paraglide/runtime';
 import { CVSchema } from '$lib/schemas/cv';
 
-// Prerender at build time: GITHUB_TOKEN stays server-side, data baked into HTML.
+// Prerender at build time: CV_REPO_TOKEN stays server-side, data baked into HTML.
 export const prerender = true;
 
 export async function load({ fetch }) {
@@ -14,7 +14,7 @@ export async function load({ fetch }) {
 		`https://api.github.com/repos/Tomperez98/cv/contents/${locale}_CV.yaml`,
 		{
 			headers: {
-				Authorization: `Bearer ${GITHUB_TOKEN}`,
+				Authorization: `Bearer ${CV_REPO_TOKEN}`,
 				Accept: 'application/vnd.github.v3+json'
 			}
 		}
