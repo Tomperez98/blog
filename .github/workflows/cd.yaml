@@ -9,6 +9,9 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  CV_REPO_TOKEN: ${{ secrets.CV_REPO_TOKEN }}
+
 concurrency:
   group: 'pages'
   cancel-in-progress: true
