@@ -7,14 +7,11 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Header from '$lib/Header.svelte';
 
-	let { children } = $props();
+	let { children, data } = $props();
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<Header
-	linkedin="https://www.linkedin.com/in/tomas-perez-alvarez/"
-	github="https://github.com/Tomperez98"
-/>
+<Header cv={data.cv} />
 {@render children()}
 
 <div style="display:none">
