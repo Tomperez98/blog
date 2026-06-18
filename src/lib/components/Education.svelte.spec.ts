@@ -26,32 +26,24 @@ describe('Education.svelte', () => {
 
 	it('renders all education cards', async () => {
 		render(Education, { education: fixtures });
-		await expect.element(
-			page.getByRole('heading', { level: 3, name: 'Universidad Nacional' })
-		).toBeInTheDocument();
-		await expect.element(
-			page.getByRole('heading', { level: 3, name: 'MIT' })
-		).toBeInTheDocument();
+		await expect
+			.element(page.getByRole('heading', { level: 3, name: 'Universidad Nacional' }))
+			.toBeInTheDocument();
+		await expect.element(page.getByRole('heading', { level: 3, name: 'MIT' })).toBeInTheDocument();
 	});
 
 	it('shows institution as h3', async () => {
 		render(Education, { education: fixtures });
-		await expect.element(
-			page.getByRole('heading', { level: 3, name: 'Universidad Nacional' })
-		).toBeInTheDocument();
-		await expect.element(
-			page.getByRole('heading', { level: 3, name: 'MIT' })
-		).toBeInTheDocument();
+		await expect
+			.element(page.getByRole('heading', { level: 3, name: 'Universidad Nacional' }))
+			.toBeInTheDocument();
+		await expect.element(page.getByRole('heading', { level: 3, name: 'MIT' })).toBeInTheDocument();
 	});
 
 	it('shows degree in area', async () => {
 		render(Education, { education: fixtures });
-		await expect
-			.element(page.getByText('B.Sc. in Computer Science'))
-			.toBeInTheDocument();
-		await expect
-			.element(page.getByText('M.Sc. in Data Science'))
-			.toBeInTheDocument();
+		await expect.element(page.getByText('B.Sc. in Computer Science')).toBeInTheDocument();
+		await expect.element(page.getByText('M.Sc. in Data Science')).toBeInTheDocument();
 	});
 
 	it('shows location', async () => {

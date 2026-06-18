@@ -30,12 +30,12 @@ describe('Experience.svelte', () => {
 
 	it('renders both entries with company as heading', async () => {
 		render(Experience, { experience: fixtures });
-		await expect.element(
-			page.getByRole('heading', { level: 3, name: 'Acme Corp' })
-		).toBeInTheDocument();
-		await expect.element(
-			page.getByRole('heading', { level: 3, name: 'Startup Inc' })
-		).toBeInTheDocument();
+		await expect
+			.element(page.getByRole('heading', { level: 3, name: 'Acme Corp' }))
+			.toBeInTheDocument();
+		await expect
+			.element(page.getByRole('heading', { level: 3, name: 'Startup Inc' }))
+			.toBeInTheDocument();
 	});
 
 	it('shows position and location separated by middle dot', async () => {

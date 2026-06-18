@@ -31,14 +31,8 @@ describe('Header.svelte', () => {
 		render(Header, { cv });
 		const ghLink = page.getByRole('link', { name: 'GitHub' });
 		const liLink = page.getByRole('link', { name: 'LinkedIn' });
-		await expect.element(ghLink).toHaveAttribute(
-			'href',
-			'https://github.com/janedoe'
-		);
-		await expect.element(liLink).toHaveAttribute(
-			'href',
-			'https://www.linkedin.com/in/jane-doe/'
-		);
+		await expect.element(ghLink).toHaveAttribute('href', 'https://github.com/janedoe');
+		await expect.element(liLink).toHaveAttribute('href', 'https://www.linkedin.com/in/jane-doe/');
 	});
 
 	it('social links open in new tab', async () => {

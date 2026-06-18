@@ -11,9 +11,7 @@ describe('Hero.svelte', () => {
 
 	it('does not render headline when absent', async () => {
 		render(Hero, {});
-		await expect
-			.element(page.getByText('Full-stack developer'))
-			.not.toBeInTheDocument();
+		await expect.element(page.getByText('Full-stack developer')).not.toBeInTheDocument();
 	});
 
 	it('renders location with pin emoji', async () => {
