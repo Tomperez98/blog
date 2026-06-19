@@ -9,7 +9,7 @@
 	const cv = $derived(data.cv);
 </script>
 
-<main class="max-w-3xl mx-auto px-4 py-12">
+<main class="mx-auto max-w-3xl px-4 py-16">
 	<Hero headline={cv.headline} location={cv.location} email={cv.email} />
 
 	{#if cv.sections.summary}

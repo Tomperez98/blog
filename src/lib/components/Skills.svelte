@@ -7,7 +7,7 @@
 </script>
 
 <section class="mb-10">
-	<h2 class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-4">
+	<h2 class="mb-4 font-mono text-xs uppercase tracking-wider text-gray-400 dark:text-gray-600">
 		{m.skills_heading()}
 	</h2>
 	<div class="flex flex-wrap gap-3">

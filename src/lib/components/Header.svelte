@@ -4,6 +4,8 @@
 	import type { CVSchema, SocialNetworkSchema } from '$lib/schemas/cv';
 	import { z } from 'zod';
 	import { assertNever } from '$lib/utils';
+	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 
 	let { cv }: { cv: z.infer<typeof CVSchema>['cv'] } = $props();
 
@@ -35,8 +37,28 @@
 		>
 			<img class="w-4 h-3" src="https://flagcdn.com/{current === 'es' ? 'co' : 'us'}.svg" alt="" />
 		</button>
-		<span class="self-center text-xl font-semibold whitespace-nowrap">{cv.name}</span>
+		<span class="self-center font-serif text-xl whitespace-nowrap text-gray-900 dark:text-gray-50"
+			>{cv.name}</span
+		>
 	</NavBrand>
+
+	<div class="mx-auto flex gap-8 font-mono text-xs uppercase tracking-wider">
+		<a
+			href={resolve('/')}
+			class="text-gray-500 transition-colors hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400"
+			aria-current={page.url.pathname === '/' ? 'page' : undefined}
+			class:text-primary-600={page.url.pathname === '/'}
+			class:dark:text-primary-400={page.url.pathname === '/'}>Curriculum</a
+		>
+		<a
+			href={resolve('/blog')}
+			class="text-gray-500 transition-colors hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400"
+			aria-current={page.url.pathname.startsWith('/blog') ? 'page' : undefined}
+			class:text-primary-600={page.url.pathname.startsWith('/blog')}
+			class:dark:text-primary-400={page.url.pathname.startsWith('/blog')}>Blog</a
+		>
+	</div>
+
 	<NavUl>
 		{#each cv.social_networks as entry (entry.network)}
 			<NavLi
